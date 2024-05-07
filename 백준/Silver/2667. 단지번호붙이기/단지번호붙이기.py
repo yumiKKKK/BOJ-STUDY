@@ -39,7 +39,4 @@ for i in range(n):
 cnt.sort()
 print(len(cnt))
 for i in range(len(cnt)):
-    if i == len(cnt)-1:
-        print(cnt[i], end='')
-    else:
         print(cnt[i])
